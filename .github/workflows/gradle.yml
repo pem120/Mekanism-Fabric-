@@ -12,6 +12,7 @@ on:
     branches: [ "1.20.x" ]
   pull_request:
     branches: [ "1.20.x" ]
+  repository_dispatch:
 
 jobs:
   build:
